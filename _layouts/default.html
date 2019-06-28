@@ -1,14 +1,13 @@
 <!DOCTYPE html>
-
+<html>
 <head lang="es-CO">
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Julian Franco | Diseño y desarrollo de paginas web desde Pitalito Huila</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="Diseño de paginas web y desarrollo de páginas web" />
-  <meta name="keywords" content="Pitalito, paginas, pagina, web, internet, diseño, desarrollo, huila, colombia" />
-  <meta name="generator" content="Jekyll 3.8.0" />
-  <meta name="author" content="Julian Franco" />
+   <title>{% if page.title %}{{ page.title }} | {{site.name}}{% else %}{{ site.name }}{% endif %}</title>
+   <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.name }}{% endif %}" />
+   <meta name="generator" content="Jekyll 3.8.0" />
+   <meta name="author" content="Julian Franco" />
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-142495598-1"></script>
