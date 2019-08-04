@@ -1,5 +1,5 @@
 ---
-link: https://yogu.com.co
+link: https://klerpson.github.io/yogu/
 image: images/yogu/yoguA.png
 alt_image: Página web Yogú Pitalito
 title: Página web de Yogú - Pitalito
